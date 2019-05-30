@@ -18,13 +18,12 @@ matrix:
 
       env:
         - GO111MODULE=on
-        - GOFLAGS='-mod vendor'
 
       before_install:
         - cd cmd/
 
       script:
-        - go test -v ./...
+        - go test -v -mod=vendor ./...
 
     - language: java
 
