@@ -21,9 +21,10 @@ matrix:
 
       before_install:
         - cd cmd/
+        - go mod download
 
       script:
-        - go test -v -mod=vendor ./...
+        - go test -v ./...
 
     - language: java
 
