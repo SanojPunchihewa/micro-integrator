@@ -15,8 +15,6 @@
 matrix:
   include:
     - language: go
-      go:
-        - "1.12.1"
 
       env:
         - GO111MODULE=on
