@@ -369,6 +369,8 @@ public class TestUtils {
             }
         } catch (Exception e) {
             System.out.println("Error killing the process which uses the port " + port);
+			// print stack trace
+			e.printStackTrace();
         }
     }
 
