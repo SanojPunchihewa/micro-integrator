@@ -1980,9 +1980,9 @@
     </dependencyManagement>
 
     <scm>
-        <url>https://github.com/wso2/micro-integrator.git</url>
-        <developerConnection>scm:git:https://github.com/wso2/micro-integrator.git</developerConnection>
-        <connection>scm:git:https://github.com/wso2/micro-integrator.git</connection>
+        <url>https://github.com/SanojPunchihewa/micro-integrator.git</url>
+        <developerConnection>scm:git:https://github.com/SanojPunchihewa/micro-integrator.git</developerConnection>
+        <connection>scm:git:https://github.com/SanojPunchihewa/micro-integrator.git</connection>
         <tag>HEAD</tag>
     </scm>
 
