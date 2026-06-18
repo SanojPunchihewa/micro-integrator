@@ -107,17 +107,31 @@ public class UtilServer {
     }
 
     public static synchronized void start(String repository, String axis2xml) throws Exception {
+
+        System.out.println("Starting server with repository : " + repository + " and axis2xml : " + axis2xml + " c = " + count);
         if (count == 0) {
             TestUtils.shutdownFailsafe(TESTING_PORT);
-            ConfigurationContext er = getNewConfigurationContext(repository, axis2xml);
+            System.out.println("Creating ConfigurationContext");
+            ConfigurationContext er = null;
+            try {
+                er = getNewConfigurationContext(repository, axis2xml);
+            } catch (Exception e) {
+                System.out.println("Error while creating ConfigurationContext with repository : " + repository + " and axis2xml : " + axis2xml);
+                e.printStackTrace();
+                throw new AxisFault("Error while creating ConfigurationContext with repository : " + repository + " and axis2xml : " + axis2xml, e);
+            }
 
+            System.out.println("Creating SimpleHttpServerExtension");
             receiver = new SimpleHttpServerExtension(er, TESTING_PORT);
 
             try {
+                System.out.println("Before start");
                 receiver.start();
                 System.out.print("Server started on port "
                                  + TESTING_PORT + ".....");
             } catch (Exception e) {
+                System.out.println("Error while starting the server on port " + TESTING_PORT);
+                e.printStackTrace();
                 throw new AxisFault("Error while starting the server on port " + TESTING_PORT, e);
             }
 
@@ -151,6 +165,7 @@ public class UtilServer {
             String repository, String axis2xml) throws Exception {
         File file = new File(repository);
         if (!file.exists()) {
+            System.out.println("repository directory " + file.getAbsolutePath() + " does not exists");
             throw new Exception("repository directory "
                                 + file.getAbsolutePath() + " does not exists");
         }
