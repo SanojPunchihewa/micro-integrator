@@ -58,6 +58,10 @@
                     <groupId>org.wso2.commons-httpclient</groupId>
                     <artifactId>commons-httpclient</artifactId>
                 </exclusion>
+                <exclusion>
+                    <groupId>org.wso2.orbit.org.apache.httpcomponents</groupId>
+                    <artifactId>httpclient</artifactId>
+                </exclusion>
             </exclusions>
         </dependency>
         <dependency>
@@ -81,14 +85,32 @@
         <dependency>
             <groupId>org.wso2.ei</groupId>
             <artifactId>org.wso2.micro.integrator.registry</artifactId>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.wso2.orbit.org.apache.httpcomponents</groupId>
+                    <artifactId>httpclient</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
         <dependency>
             <groupId>org.wso2.ei</groupId>
             <artifactId>org.wso2.carbon.securevault</artifactId>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.wso2.orbit.org.apache.httpcomponents</groupId>
+                    <artifactId>httpclient</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
         <dependency>
             <groupId>org.apache.ws.security.wso2</groupId>
             <artifactId>wss4j</artifactId>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.wso2.orbit.org.apache.httpcomponents</groupId>
+                    <artifactId>httpclient</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
         <dependency>
             <groupId>org.apache.felix</groupId>
@@ -98,26 +120,62 @@
         <dependency>
             <groupId>org.wso2.ei</groupId>
             <artifactId>org.wso2.micro.integrator.core</artifactId>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.wso2.orbit.org.apache.httpcomponents</groupId>
+                    <artifactId>httpclient</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
         <dependency>
             <groupId>org.wso2.ei</groupId>
             <artifactId>org.wso2.micro.integrator.server</artifactId>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.wso2.orbit.org.apache.httpcomponents</groupId>
+                    <artifactId>httpclient</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
         <dependency>
             <groupId>org.wso2.ei</groupId>
             <artifactId>org.wso2.micro.integrator.ntask.core</artifactId>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.wso2.orbit.org.apache.httpcomponents</groupId>
+                    <artifactId>httpclient</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
         <dependency>
             <groupId>org.wso2.ei</groupId>
             <artifactId>org.wso2.micro.integrator.mediation.ntask</artifactId>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.wso2.orbit.org.apache.httpcomponents</groupId>
+                    <artifactId>httpclient</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
         <dependency>
             <groupId>org.wso2.ei</groupId>
             <artifactId>org.wso2.micro.integrator.inbound.endpoint</artifactId>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.wso2.orbit.org.apache.httpcomponents</groupId>
+                    <artifactId>httpclient</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
         <dependency>
             <groupId>org.wso2.ei</groupId>
             <artifactId>org.wso2.micro.integrator.ndatasource.capp.deployer</artifactId>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.wso2.orbit.org.apache.httpcomponents</groupId>
+                    <artifactId>httpclient</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
         <dependency>
             <groupId>org.wso2.ei</groupId>
@@ -126,6 +184,10 @@
                 <exclusion>
                     <groupId>org.wso2.orbit.commons-httpclient</groupId>
                     <artifactId>commons-httpclient</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>org.wso2.orbit.org.apache.httpcomponents</groupId>
+                    <artifactId>httpclient</artifactId>
                 </exclusion>
             </exclusions>
         </dependency>
@@ -136,6 +198,12 @@
         <dependency>
             <groupId>org.wso2.ei</groupId>
             <artifactId>org.wso2.micro.integrator.observability</artifactId>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.wso2.orbit.org.apache.httpcomponents</groupId>
+                    <artifactId>httpclient</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
         <dependency>
             <groupId>org.wso2.integration.transaction.counter</groupId>
@@ -145,11 +213,21 @@
                     <groupId>org.apache.httpcomponents.wso2</groupId>
                     <artifactId>httpclient</artifactId>
                 </exclusion>
+                <exclusion>
+                    <groupId>org.wso2.orbit.org.apache.httpcomponents</groupId>
+                    <artifactId>httpclient</artifactId>
+                </exclusion>
             </exclusions>
         </dependency>
         <dependency>
             <groupId>org.wso2.ei</groupId>
             <artifactId>org.wso2.micro.integrator.utils</artifactId>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.wso2.orbit.org.apache.httpcomponents</groupId>
+                    <artifactId>httpclient</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
         <dependency>
             <groupId>org.wso2.orbit.com.nimbusds</groupId>
