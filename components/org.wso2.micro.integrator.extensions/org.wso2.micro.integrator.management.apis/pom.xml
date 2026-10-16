@@ -13,6 +13,7 @@
     <artifactId>org.wso2.micro.integrator.management.apis</artifactId>
 
     <packaging>bundle</packaging>
+    <name>WSO2 Micro Integrator - org.wso2.micro.integrator.management.apis</name>
 
     <dependencies>
         <dependency>

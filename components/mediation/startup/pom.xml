@@ -28,6 +28,7 @@
     <modelVersion>4.0.0</modelVersion>
     <packaging>pom</packaging>
     <artifactId>startup</artifactId>
+    <name>WSO2 Micro Integrator - startup</name>
 
     <modules>
         <module>mediation-startup</module>

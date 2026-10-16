@@ -29,6 +29,7 @@
 
     <artifactId>data-publisher-features</artifactId>
     <packaging>pom</packaging>
+    <name>WSO2 Micro Integrator - data-publisher-features</name>
 
     <modules>
         <module>org.wso2.micro.integrator.observability.feature</module>

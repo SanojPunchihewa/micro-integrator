@@ -28,6 +28,7 @@
 
     <modelVersion>4.0.0</modelVersion>
     <artifactId>org.wso2.micro.integrator.analytics.messageflow.data.publisher.feature</artifactId>
+    <name>WSO2 Micro Integrator - org.wso2.micro.integrator.analytics.messageflow.data.publisher.feature</name>
     <url>http://wso2.org</url>
 
     <description>

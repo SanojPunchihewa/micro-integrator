@@ -29,6 +29,7 @@
     <modelVersion>4.0.0</modelVersion>
     <artifactId>org.wso2.micro.integrator.crypto.impl</artifactId>
     <packaging>bundle</packaging>
+    <name>WSO2 Micro Integrator - org.wso2.micro.integrator.crypto.impl</name>
     <description>WSO2 Micro Integrator- Default Implementation</description>
 
     <dependencies>

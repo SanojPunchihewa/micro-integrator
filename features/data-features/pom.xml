@@ -28,6 +28,7 @@
     <modelVersion>4.0.0</modelVersion>
     <artifactId>data-features</artifactId>
     <packaging>pom</packaging>
+    <name>WSO2 Micro Integrator - data-features</name>
 
     <modules>
         <module>data-services-feature</module>

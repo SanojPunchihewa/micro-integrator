@@ -26,6 +26,7 @@
 
     <artifactId>org.wso2.micro.integrator.security</artifactId>
     <packaging>bundle</packaging>
+    <name>WSO2 Micro Integrator - org.wso2.micro.integrator.security</name>
     <modelVersion>4.0.0</modelVersion>
 
     <dependencies>

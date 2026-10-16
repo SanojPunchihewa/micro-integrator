@@ -27,6 +27,7 @@
     <modelVersion>4.0.0</modelVersion>
     <artifactId>org.wso2.micro.integrator.websocket.feature</artifactId>
     <packaging>pom</packaging>
+    <name>WSO2 Micro Integrator - org.wso2.micro.integrator.websocket.feature</name>
     <url>http://wso2.org</url>
     <description>This feature contains the Websocket core feature</description>
 

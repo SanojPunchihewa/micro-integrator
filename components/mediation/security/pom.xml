@@ -27,6 +27,7 @@
 
     <artifactId>security</artifactId>
     <packaging>pom</packaging>
+    <name>WSO2 Micro Integrator - security</name>
 
     <modules>
         <module>org.wso2.micro.integrator.mediation.security</module>

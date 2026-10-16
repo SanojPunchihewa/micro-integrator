@@ -27,6 +27,7 @@
 
     <artifactId>connectors</artifactId>
     <packaging>pom</packaging>
+    <name>WSO2 Micro Integrator - connectors</name>
 
 
     <modules>

@@ -28,6 +28,7 @@
     <modelVersion>4.0.0</modelVersion>
     <artifactId>data-services</artifactId>
     <packaging>pom</packaging>
+    <name>WSO2 Micro Integrator - data-services</name>
 
     <modules>
         <module>org.wso2.micro.integrator.dataservices.capp.deployer</module>

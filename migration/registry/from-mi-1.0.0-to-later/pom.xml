@@ -24,6 +24,7 @@
     <groupId>Migrator</groupId>
     <artifactId>RegistryMigrator</artifactId>
     <version>1.0</version>
+    <name>WSO2 Micro Integrator - RegistryMigrator</name>
     <build>
         <plugins>
             <plugin>

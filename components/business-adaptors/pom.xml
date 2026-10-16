@@ -28,6 +28,7 @@
     <modelVersion>4.0.0</modelVersion>
     <artifactId>business-adaptors</artifactId>
     <packaging>pom</packaging>
+    <name>WSO2 Micro Integrator - business-adaptors</name>
 
     <modules>
         <module>org.wso2.micro.integrator.business.messaging.hl7</module>
